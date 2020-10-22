@@ -6,7 +6,11 @@ namespace githubtest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world xD!");
+            //Console.WriteLine("Hello world xD!");
+            for (int i = 1; i <= 10; i++)
+            {
+                Console.WriteLine("{0}^2 = {1}", i, i * i);
+            }
         }
     }
 }
